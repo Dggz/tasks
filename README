@@ -1,0 +1,11 @@
+Operations service
+
+Before you run, make sure you have PostgreSQL and Docker installed and running on your machine.
+You can run the service using Docker Compose. The `docker-compose.yml` file is already configured to set up the PostgreSQL database and the operations service.
+
+To run the service, follow these steps:
+- Clone the repository to your local machine.
+- Navigate to the project directory.
+- Run the following command to start the service and the database:
+```bash
+    docker-compose up --build

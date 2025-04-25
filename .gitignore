@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.swp
+*.log
+
+# C extensions
+*.so
+
+# SQLite db
+*.sqlite3
+
+# Distribution / packaging
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Translations
+*.pot
+
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
+*.iml
+
+## Directory-based project format:
+.idea/
+
+## File-based project format:
+*.ipr
+*.iws
+
+# local settings
+local_settings.py
+venv/
+
+# Unit test / coverage reports
+.coverage
+covhtml/
+htmlcov/
+
+# Static files
+
+media/
+logs/default.log
+

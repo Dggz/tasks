@@ -1,0 +1,18 @@
+services:
+  web:
+    develop:
+      watch:
+        - action: sync
+          path: ./app
+          target: /app
+        - action: rebuild
+          path: requirements.txt
+
+  celery_worker:
+    develop:
+      watch:
+        - action: sync
+          path: ./app
+          target: /app
+        - action: rebuild
+          path: requirements.txt 
